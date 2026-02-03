@@ -19,8 +19,12 @@ jobs:
       - name: Install Pandoc
         run: sudo apt-get update && sudo apt-get install -y pandoc
 
-      - name: Build HTML from LaTeX
-        run: pandoc index.tex --mathjax -s -o index.html
+      - name: Build HTML from LaTeX (with MathJax)
+        run: >
+          pandoc index.tex
+          -s
+          --mathjax="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+          -o index.html
 
       - name: Commit and push HTML
         run: |
