@@ -1,19 +1,5 @@
-#不可逃避性
-
+# 不可逃避性
 作者：謝翔宇
 
-## Introduction
-這是一個用Markdown寫的網站。
-
-## Math
-$$
-E = mc^2
-$$
-
-## Matrix
-$$
-\begin{pmatrix}
-a & b \\
-c & d
-\end{pmatrix}
-$$
+## 不可逃避性
+定義：A滿足不可逃避性若且唯若否定A的行為本身不成立
